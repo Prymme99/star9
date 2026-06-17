@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // ===== HERO SLIDESHOW (with image placeholders) =====
   const slidesData = [
-    { title: "Reliable Electrical & Security", subtitle: "Professional solutions for homes and businesses", bg: "url('images/whyuss.jpg')" },
+    { title: "Reliable Electrical Solutions", subtitle: "Professional solutions for homes and businesses", bg: "url('images/whyuss.jpg')" },
     { title: "Gyser Installations", subtitle: "Professional geyser installations for lasting comfort.", bg: "url('images/gyser.jpg')" },
     { title: "Backup Power & Inverter Solutions", subtitle: "Load shedding solutions, inverters, batteries", bg: "url('images/fullsolar.jpg')" }
   ];
