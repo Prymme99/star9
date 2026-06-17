@@ -206,6 +206,25 @@ window.addEventListener('resize', () => {
     }
   });
 });
+    // ===== SCROLL REVEAL (Intersection Observer) =====
+  // ... your existing observer code ...
+
+  // ===== HIDE/REVEAL MOBILE STICKY BAR ON SCROLL =====
+  const mobileStickyBar = document.querySelector('.mobile-sticky-bar');
+  if (mobileStickyBar) {
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScroll && currentScroll > 50) {
+        mobileStickyBar.style.transform = 'translateY(100%)';
+        mobileStickyBar.style.transition = 'transform 0.3s ease';
+      } else {
+        mobileStickyBar.style.transform = 'translateY(0)';
+      }
+      lastScroll = currentScroll;
+    });
+  }
+// <-- DOMContentLoaded ends here
 
   // Also observe any dynamic elements added later (if needed)
 });
