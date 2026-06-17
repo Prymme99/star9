@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // ===== TESTIMONIALS CAROUSEL =====
   const testimonials = [
-    { name: "Linda Khumalo", text: "Brian responded fast, fixed my faulty wiring and installed CCTV. Highly professional!", rating: 5 },
+    { name: "Linda Khumalo", text: "Star9 responded fast, fixed my faulty wiring and installed CCTV. Highly professional!", rating: 5 },
     { name: "Thabo Nkosi", text: "Inverter installation done perfectly. Clean work, reasonable pricing.", rating: 5 },
     { name: "Sarah van der Merwe", text: "Excellent alarm and CCTV setup. He explained everything. Trustworthy.", rating: 5 }
   ];
